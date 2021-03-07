@@ -1,0 +1,71 @@
+#Napisz skrypt, w którym tworzysz listę z ulubionymi filmami, a następnie odwróć całą listę.
+#Po odwróceniu listy dodaj kilka pozycji (dodane pozycje mają zostać dodane od 5 indeksu, cała
+#lista mam zawierać 10 pozycji).
+Lista = "Dylemat społeczny"
+print(Lista)
+print(Lista[:: -1])
+print(Lista[5 : 10])
+#Stwórz skrypt, w którym utworzysz słownik z filmami z zadania 1. Pomyśl co może być kluczem.
+Lista2 = {
+  "Mark": "Zuckerberg",
+  "Facebook": "Media",
+  "Rok": "2021"
+}
+print(Lista2)
+
+
+#Stwórz skrypt, gdzie utworzysz słownik z nazwami przedmiotów z obecnego semestru oraz ich skrótami.
+#Policz liczbę elementów w słownik.
+Lista3 = {
+  "Mark": "Zuckerberg",
+  "Facebook": "Media",
+  "Rok": "2021"
+}
+print(len(Lista3))
+
+
+#Napisz skrypt gdzie wczytasz liczbę dowolnego typu i podnieś ją do tej samej potęgi.
+#Użyj funkcji input.
+a = input("Liczba: ")
+b = input("Liczba: ")
+result = int(a) ** int(b)
+print(result)
+
+
+#Napisz skrypt gdzie wczytasz dowolny ciąg znaków, i policzysz wystąpienie litery a.
+#Użyj instrukcji readline() i write()).
+-nie rozumiem
+
+
+#Wczytaj trzy liczby całkowite a,b,c i sprawdź czy liczba a jest parzysta oraz czy jednocześnie b>c.
+a = input("Liczba całkowita:")
+b = input("Liczba całkowita:")
+c = input("Liczba całkowita:")
+input(a)
+input(b>c)
+
+
+#Napisz skrypt, gdzie stworzysz listę składającą się z liczb typu int i float.
+#Następnie za pomocą pętli for oblicz sumę elementu obecnego z poprzednim.
+a = input("Podaj liczby całkowite:")
+b= input("Podaj liczby całkowite:")
+result = int(a) + int(b)
+print(result)
+
+a = input("Podaj liczby całkowite:")
+b= input("Podaj liczby całkowite:")
+result = float(a) + float(b)
+print(result)
+
+
+#Napisz skrypt, który za pomocą pętli while pobiera 10 liczb, a następnie dodaje do listy
+#tylko liczby całkowite.
+lista = 0
+while lista < 10:
+    print(lista)
+    lista = lista + 2
+
+
+#Napisz skrypt, w którym użytkownik ma podać liczbę i który będzie wyłapywał błąd gdy
+#użytkownik poda literę zamiast cyfry.
+-nie rozumiem
